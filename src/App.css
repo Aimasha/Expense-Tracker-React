@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(253, 206, 253);
+}
+.App{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: unset;
+}
+.balance-container{
+    display: flex;
+    padding-right: 150px;
+}
+.balance{
+    font-size:x-large
+}
+
+.inc-exp-container{
+ 
+   width: 28%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   background-color:white;
+ 
+}
+.money-plus{
+    border: 1px solid gray;
+    color: rgb(17, 177, 17);
+    font-size: x-large;
+    box-shadow: 5px 10px 18px rgb(46, 201, 222);
+}
+.money-minus{
+    border: 1px solid gray;
+    color: red;
+    font-size: x-large;
+    box-shadow: 5px 10px 18px rgb(46, 201, 222);
+}
+.inc{
+    margin-right: 30px;
+}
+.exp{
+    margin-left: 30px;
+}
+
+.transaction{
+   border: 1px solid gray ;
+   display: flex;
+   width: 480px;
+   justify-content: space-between;
+   justify-items: center;
+   padding: 10px;
+}
+.span{
+   margin-left: 350px;
+}
+ul{
+    list-style-type: none;
+}
+input{
+    padding: 15px;
+    width: 470px;
+}
+.btn-add-tranc{
+    padding: 10px;
+}
+.btnlast{
+    background-color: rgb(207, 175, 236);
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 400px;
+}
+.trans-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.add-tranc-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.minusLine{
+    border: 3px solid red;
+    height: 20px;
+    background-color: red;
+}
+.plucLine{
+    border: 3px solid rgb(44, 252, 7);
+    height: 20px;
+    background-color: rgb(44, 252, 7);
+}
